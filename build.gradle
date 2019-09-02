@@ -23,7 +23,7 @@ buildscript {
             version: '1.0.0',
             groupId: 'com.ternaryop',
             artifactId: 'utils-drawer',
-            bintrayRepoName: 'Drawer',
+            bintrayRepoName: 'CommonUtils',
             desc: 'Drawer component',
             website: 'https://github.com/ternaryop/drawer.git'
     ]

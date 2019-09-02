@@ -20,7 +20,7 @@ buildscript {
     }
 
     ext.publishPackage = [
-            version: '1.0.0-local',
+            version: '1.0.0',
             groupId: 'com.ternaryop',
             artifactId: 'utils-drawer',
             bintrayRepoName: 'Drawer',

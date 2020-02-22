@@ -9,9 +9,9 @@ buildscript {
         compileSdkVersion = 29
         buildToolsVersion = '28.0.3'
 
-        androidXAppCompatLibVersion = '1.1.0-rc01'
+        androidXAppCompatLibVersion = '1.1.0'
 
-        junitLibVersion = '4.13-beta-3'
+        junitLibVersion = '4.13'
 
         androidXEspressoCoreLibVersion = '3.3.0-alpha01'
         androidXTestRunner = '1.3.0-alpha01'
@@ -20,7 +20,7 @@ buildscript {
     }
 
     ext.publishPackage = [
-            version: '1.0.0',
+            version: '1.0.1',
             groupId: 'com.ternaryop',
             artifactId: 'utils-drawer',
             bintrayRepoName: 'CommonUtils',
@@ -35,7 +35,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.5.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         classpath "com.novoda:bintray-release:$novaBintrayReleaseLibVersion"

@@ -1,0 +1,9 @@
+complexity:
+  TooManyFunctions:
+    active: false
+
+style:
+  ReturnCount:
+    active: true
+    max: 3
+    excludedFunctions: "equals,onOptionsItemSelected,onPreferenceTreeClick,onMenuItemSelected"

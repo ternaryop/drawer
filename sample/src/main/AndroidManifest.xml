@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ternaryop.utils.drawer">
+    package="com.ternaryop.utils.drawer.sampleapp">
 
     <application
         android:allowBackup="true"

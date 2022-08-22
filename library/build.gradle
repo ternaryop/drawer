@@ -17,8 +17,6 @@ android {
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName VERSION_NAME
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -43,4 +41,8 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-core:${androidXEspressoCoreLibVersion}"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}
+
+repositories {
+    mavenCentral()
 }

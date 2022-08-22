@@ -38,3 +38,11 @@ Android Studio configuration
 |      Name      | Gradle Project      | Tasks          |
 |:--------------:|---------------------|----------------|
 | uploadArchives | ../app/build.gradle | uploadArchives |
+
+Common tasks
+============
+
+Run lint and detekt
+--
+
+    ./gradlew check

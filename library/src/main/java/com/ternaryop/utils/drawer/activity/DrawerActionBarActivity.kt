@@ -77,7 +77,7 @@ abstract class DrawerActionBarActivity : AppCompatActivity(), DrawerLayout.Drawe
         drawerToggle.onConfigurationChanged(newConfig)
     }
 
-    override fun onDrawerSlide(view: View, v: Float) {}
+    override fun onDrawerSlide(view: View, v: Float) = Unit
 
     override fun onDrawerOpened(view: View) {
         selectedMenuChanged = false
@@ -98,7 +98,7 @@ abstract class DrawerActionBarActivity : AppCompatActivity(), DrawerLayout.Drawe
         invalidateOptionsMenu()
     }
 
-    override fun onDrawerStateChanged(i: Int) {}
+    override fun onDrawerStateChanged(i: Int) = Unit
 
     private inner class DrawerItemClickListener : AdapterView.OnItemClickListener {
         override fun onItemClick(parent: AdapterView<*>, view: View, position: Int, id: Long) {
@@ -112,7 +112,8 @@ abstract class DrawerActionBarActivity : AppCompatActivity(), DrawerLayout.Drawe
 
     /**
      * Select menu item from clicked position in drawer list.
-     * If the position is valid and differs from the current one then call setDrawerListSelection and onDrawerItemSelected
+     * If the position is valid and differs from the current one then
+     * call setDrawerListSelection and onDrawerItemSelected
      * @param position the item postion
      * @return true if new menu item has been selected, false otherwise
      */
